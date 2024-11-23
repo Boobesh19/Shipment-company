@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osaka Private Limited</title>
+    <link rel="stylesheet" href="/logistic-site/assets/css/heading_color.css">  
+    <script src="/logistic-site/assets/js/loginjs.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <a><img id="logo" src="/logistic-site/assets/images/red-circle-logo.jpg" width="100" height="70"></a>
+                <a href="home-page.html">Home</a>
+                <a href="#" onclick="checkLogin('shipment-booking.html')">Shipment Booking</a>
+                <a href="#" onclick="checkLogin('product-tracking-details.html')">Shipment Tracking</a> 
+                <a href="about-us.html">About Us</a>     
+                <a href="#" onclick="checkLogin('contact-us.html')">Contact us</a>                                        
+            </nav>
+        </div>
+    </header>
+
+      <section class="social-links">
+        <div class="contact">
+          <h1 class="green_c">Contact Us</h1>
+          <p>Have questions or need assistance? Reach out to us, and we'll be happy to help!</p>
+
+          <div class="contact-form">
+            <h2 class="green_c">Send Us a Message</h2>
+            <form action="submit-contact-form.php" method="post">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <input type="text" name="subject" placeholder="Subject" required />
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+              <button type="submit" class="button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <section>
+            <div class="green_c">Contact Us</div>
+                <div><b>Address:</b> B1, Industrial Estate, Velachery,</div>
+                <div> Chennai, Tamil Nadu.</div>
+
+                <p><b>Email:</b> &nbsp; osakapvtltd@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+                <p><b>Phone:</b> &nbsp; 7708799000 , 7708796000&nbsp;&nbsp;&nbsp;</p>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/yourprofile">
+                <img src="/logistic-site/assets/images/icons/fb.jpg" width="20" height="20">
+                    Facebook</a>
+
+                <a href="https://www.instagram.com/yourprofile">
+                    <img src="/logistic-site/assets/images/icons/insta.jpg" width="20" height="20">
+                    Instagram</a>
+
+                <a href="https://www.linkedin.com/in/yourprofile">
+                    <img src="/logistic-site/assets/images/icons/linkidin.jpg" width="20" height="20">
+                    LinkedIn</a>
+            </div>
+            <img src="/logistic-site/assets/images/red-circle-logo.jpg" alt="red-circle-logo" width="200" height="200">
+        </section>
+    </footer>
+          <p>
+            <a href="contact-us.html">Contact Us</a> | 
+            <a href="about-us.html">About Us</a>
+          </p>
+        </div>
+    </main>
+  </body>
+</html>
