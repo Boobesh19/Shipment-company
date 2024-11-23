@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: navy;
+}
+
+section{
+    padding: 15px;
+    margin: 25px;
+}
+
+.green_c { /*  giving heading color */
+    color: rgb(37, 5, 219);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    padding: 5px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer , .social-links{  /*align in center*/
+    text-align: center;
+}
+
+
+/* Navigation Menu */
+nav {
+    display: flex;
+}
+
+nav a, .social-links a{
+    margin-right: 35px; 
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(51, 188, 243);
+    font-size: 28px;
+}
+
+nav a:hover, .social-links a:hover{
+    text-decoration: underline;
+    color: rgb(192, 59, 245);
+}
+
+
+
+/* Sub pages css code */
+form {
+    display: grid;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(51, 188, 243);
+}
