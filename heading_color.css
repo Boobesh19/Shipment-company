@@ -31,6 +31,7 @@ img {
 #logo , #search {
     margin: 5px;
     margin-right: 50px;
+    text-align: center;
 }
 
 footer {
